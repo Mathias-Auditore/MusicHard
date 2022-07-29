@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    border-bottom: grey 1px solid;
+}
+
+nav{
+    background-color: #100F0F;
+}
+
+.navbar-brand{
+    color: #E2DCC8;
+}
+
+.nav-link{
+    color: #E2DCC8;
+}
+
+.navbar-nav .nav-link.active{
+    color: #E2DCC8;
+}
+
+
+.container-fluid{
+    max-width: 1920px;
+}
+
+
+.wrapper-index{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #100F0F;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner{
+    width: 70%;
+}
+
+.ventas{
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner img{
+    
+    height: 350px;
+    width: 100%;
+}
+
+/* MOSTRADOR BODY */
+
+.productos{
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 70%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-instrumento{
+    width: calc(50% - 5px);
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-limite{
+    text-align: center;
+}
+
+.imagen-limite .instrument-img{
+    width: 100%;
+    height: 350px;
+
+}
+
+.informacion{
+    width: 100%;
+    border-top: 1px solid grey;
+    background-color: #0F3D3E;
+    text-align: center;
+}
+
+.informacion p{
+    text-align: center;
+    color: #E2DCC8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.botonera{
+    text-align: center;
+    width: 70%;
+    height: 50px;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #E2DCC8;
+    background-color: #1D737F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.botonera:hover{
+    background-color: #115660;
+}
+
+/* CARRITO */
+.carrito{
+    margin-top: 40px;
+    background-color: #0F3D3E;
+    width: 70%;
+    color: #E2DCC8;
+}
+
+.h2-carrito{
+    text-align: center;
+}
+
+.table {
+    color: #E2DCC8;
+}
+
+.btn-info{
+    background-color: #218E90;
+    border-color: #218E90;
+}
+
+.btn-danger{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #90214D;
+    border-color: #90214D;
+}
+
+.btn-info:hover{
+    background-color: #1B6D6E;
+    border-color: #1B6D6E;
+}
+
+.btn-danger:hover{
+    background-color: #6A1738;
+    border-color: #6A1738;
+}
+
+.btnFinal{
+    margin-top: 10px;
+}
+
+/* Sección marketing - libreria */
+.marketing-base{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.marketing{
+    margin-top: 15px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mark-one{
+    width: 50%;
+}
+
+.mark-one img{
+    width: 95%;
+}
+
+.mark-two{
+    width: 50%;
+    color: white;
+    text-align: justify;
+}
+
+.mark-three{
+    width: 100%;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.carrusel__container{
+    position: relative;
+}
+
+
+.carrusel__lista{
+    width: 100%;
+}
+
+.elemento-car img{
+    width: 95%;
+    margin-left: 5px;
+}
+
+.elemento-car p{
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.carrusel__previous, .carrusel__next{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: white;
+    opacity: 20%;
+}
+
+.carrusel__previous {
+    left: -30px;
+    top: calc(50% - 40px);
+}
+
+.carrusel__next {
+    right: -30px;
+    top: calc(50% - 50px);
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: #E2DCC8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .row{
+    width: 99%;
+    max-width: 1920px;
+}
